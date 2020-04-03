@@ -17,7 +17,7 @@
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 370px;
   background-position: center;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
 
 .swiper__cadr {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1280px;
   display: flex;
   align-items: center;
   opacity: 0;
@@ -46,62 +46,58 @@
 }
 
 .swiper__inner1 {
-  background: rgba(248, 99, 0, 0.4);
-  padding: 15px 10% 20px;
   width: 100%;
   display: block;
-  text-decoration: none;
   transition: all 0.5s;
-  border-radius: 4px;
-}
-
-a.swiper__inner1:hover {
-  background: rgba(248, 99, 0, 0.9);
+  padding-right: 60%;
 }
 
 .swiper__title1 {
   color: #fff;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.2;
-  font-weight: 400;
-  text-align: right;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
 .swiper__text1 {
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.2;
-  font-weight: 400;
-  text-align: right;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .swiper__link1 {
-  text-align: right;
-  margin-top: 10px;
-}
-
-.swiper__link1 a {
-  color: white;
-  font-family: Arial;
-  font-size: 1rem;
-  font-weight: 400;
-  text-decoration: underline;
-}
-
-.swiper__link1 a:hover {
+  margin-top: 1.875rem;
+  width: 230px;
+  height: 56px;
+  background: #ef7e5b;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #fff;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.swiper__link1:hover {
+  background: #ed6a41;
 }
 
 .swiper-button-prev1,
 .swiper-button-next1 {
   background: rgba(255, 255, 255, 0.8);
-  width: 40px;
-  height: 40px;
+  width: 56px;
+  height: 56px;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 50%;
-  margin-top: -20px;
+  margin-top: -28px;
   border-radius: 3px;
 }
 
@@ -113,7 +109,7 @@ a.swiper__inner1:hover {
 
 .swiper-button-prev1:hover,
 .swiper-button-next1:hover {
-  background: #f86300;
+  background: #ed6a41;
 }
 
 .swiper-button-prev1:hover i,
@@ -139,17 +135,13 @@ a.swiper__inner1:hover {
 
 .swiper-pagination-bullet {
   opacity: 1;
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   background-color: #fff;
-  border-radius: 0;
-  border: 2px solid #f86300;
-  border-radius: 3px;
+  border-radius: 50%;
 }
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  width: 20px;
-  height: 20px;
-  background-color: #f86300;
+  background-color: #ef7e5b;
 }

@@ -7,7 +7,6 @@ body {
   line-height: 1.1rem;
 }
 
-
 .site__header {
   position: relative;
 }
@@ -72,32 +71,25 @@ header.header {
   color: #f86300;
 }
 
-
 .header__infoTopItem a {
   font-size: 1.5rem;
   color: #000;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .header__infoTopItem a:hover {
   color: #f86300;
 }
 
-
-
-
 .header__infoBottom {
   display: flex;
   align-items: center;
 }
 
-
-
 .header__contInfo {
   display: flex;
 }
-
 
 .header__contInfoItem {
   display: flex;
@@ -116,22 +108,20 @@ header.header {
 }
 
 .header__contInfoItem span {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
 }
 
 .header__contInfoItem a {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .header__contInfoItem a:hover {
   color: #f86300;
 }
-
-
 
 .header__socLinks {
   display: flex;
@@ -149,7 +139,7 @@ header.header {
   background: #fff;
   text-decoration: none;
   margin: 0 0 0 10px;
-  transition: all .3s;
+  transition: all 0.3s;
   border: 1px solid #f86300;
   border-radius: 3px;
 }
@@ -183,7 +173,6 @@ header.header {
   color: #fff;
 }
 
-
 .topMenu__area {
   position: relative;
 }
@@ -207,18 +196,17 @@ header.header {
   position: relative;
   color: #f86300;
   font-size: 1rem;
-
 }
 
 .topMenu li a:after {
-  content: '';
+  content: "";
   width: 0;
   position: absolute;
   left: 50%;
   bottom: -3px;
   height: 3px;
   background: #f86300;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .topMenu li:hover a:after {
@@ -277,7 +265,7 @@ header.header {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .catProd__item:hover .catProd__itemImg {
@@ -309,6 +297,7 @@ header.header {
   line-height: 1.1;
   color: #000;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .catProd__itemTitle_white {
@@ -324,7 +313,7 @@ header.header {
   padding: 7px 15px;
   border: 2px solid #000;
   margin-right: auto;
-  transition: all .3s;
+  transition: all 0.3s;
   background: transparent;
   border-radius: 4px;
 }
@@ -337,5 +326,5 @@ header.header {
 .catProd__itemLink:hover {
   color: #f86300;
   border: 2px solid #f86300;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, 0.8);
 }

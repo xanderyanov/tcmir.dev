@@ -222,7 +222,6 @@
   }
 
   60% {
-    opacity: 1;
     transform: translate3d(-25px, 0, 0);
   }
 
@@ -236,6 +235,7 @@
 
   to {
     transform: none;
+    opacity: 1;
   }
 }
 

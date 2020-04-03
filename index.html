@@ -53,14 +53,53 @@
   <body>
     <div class="site__header">
       <div class="header__area">
-        <header class="header">
+        <header class="header w1">
           <div class="logo1">
             <a href="/">
               <img src="assets/img/logo1.png" alt="" />
             </a>
           </div>
-          <div class="header__info">
-            <div class="header__infoTop">
+          <div class="header__box">
+            <div class="header__box1">
+              <div class="header__infoItem1">
+                <img src="assets/img/i/marker1.svg" alt="marker1" />
+                <span>г. Саратов, ул. Московская, 115</span>
+              </div>
+              <div class="header__infoItem1">
+                <img src="assets/img/i/time1.svg" alt="marker1" />
+                <span>c 10:00 до 20:00</span>
+              </div>
+              <div class="header__infoItem1">
+                <a href="#">Схема комплекса</a>
+              </div>
+              <div class="header__infoItem2">
+                <a href="tel:+78452265741">+7 (8452) 26 57 41</a>
+              </div>
+            </div>
+            <div class="header__box2">
+              <div class="header__actionUnit1">
+                <a href="#">
+                  <img src="assets/img/i/User.svg" alt="Личный кабинет" />
+                </a>
+              </div>
+              <div class="header__actionUnit1">
+                <a href="#">
+                  <img class="favorit" src="assets/img/i/favorit.svg" alt="Избранное" />
+                  <img class="favoritfill" src="assets/img/i/Favoritfill.svg" alt="Избранное" />
+                </a>
+              </div>
+              <div class="header__actionUnit1">
+                <a class="topCartIcon" href="#">
+                  <img class="" src="assets/img/i/Cart.svg" alt="Корзина" />
+                  <span>23</span>
+                </a>
+                <div class="topCart__totalMoney">
+                  <span>28 642</span>
+                  <span>₽</span>
+                </div>
+              </div>
+            </div>
+            <div class="header__box3">
               <nav class="topMenu__area">
                 <ul class="topMenu">
                   <li><a href="#">Главная</a></li>
@@ -72,31 +111,16 @@
                   <li><a href="#">Контакты</a></li>
                 </ul>
               </nav>
-              <div class="header__infoTopItem">
-                <i class="icon-phone-call"></i>
-                <a href="tel:+78452265741">+7 (8452) 26-57-41</a>
-              </div>
             </div>
-            <div class="header__infoBottom">
-              <div class="header__contInfo">
-                <div class="header__contInfoItem">
-                  <i class="icon-location"></i>
-                  <span>г. Саратов, ул. Московская, 115</span>
-                </div>
-                <div class="header__contInfoItem">
-                  <i class="icon-circular-wall-clock"></i>
-                  <span>c 10:00 до 21:00</span>
-                </div>
-                <div class="header__contInfoItem">
-                  <i class="icon-scheme"></i>
-                  <a href="#">Схема комплекса</a>
-                </div>
+            <div class="header__box4">
+              <div class="socialLinks">
+                <a href="#"><i class="icon-fb"></i></a>
+                <a href="#"><i class="icon-vk"></i></a>
+                <a href="#"><i class="icon-ok"></i></a>
+                <a href="#"><i class="icon-ig"></i></a>
               </div>
-              <div class="header__socLinks">
-                <a href="#" class="link_ig" target="_blank"><i class="icon-instagram2"></i></a>
-                <a href="#" class="link_fb" target="_blank"><i class="icon-facebook"></i></a>
-                <a href="#" class="link_vk" target="_blank"><i class="icon-vk-logo"></i></a>
-                <a href="#" class="link_ok" target="_blank"><i class="icon-odnoklassniki-logo"></i></a>
+              <div class="topSearch__area">
+                <a class="topSearch__btn" href="#"><i class="icon-search"></i></a>
               </div>
             </div>
           </div>
@@ -109,93 +133,76 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide swiper-slide1" style="background-image: url(assets/img/slider1/slide1.jpg);">
               <div class="swiper__cadr ">
-                <a href="#" class="swiper__inner1">
+                <div class="swiper__inner1">
                   <div class="swiper__title1">
-                    Заголовок блока слайда
+                    Весна - время обновить прическу
                   </div>
                   <div class="swiper__text1">
-                    Описание слайда
+                    Приходите в центр косметологии и красоты Бьюти ЛАУНЖ с 14 по 24 апреля и получите скидку 10%
                   </div>
-                </a>
+                  <a class="swiper__link1" href="#">Подробнее</a>
+                </div>
               </div>
             </div>
             <div class="swiper-slide swiper-slide1" style="background-image: url(assets/img/slider1/slide2.jpg);">
               <div class="swiper__cadr ">
-                <a href="#" class="swiper__inner1">
+                <div class="swiper__inner1">
                   <div class="swiper__title1">
                     Заголовок блока слайда 2
                   </div>
                   <div class="swiper__text1">
                     Описание слайда 2
                   </div>
-                </a>
+                  <a class="swiper__link1" href="#">Подробнее</a>
+                </div>
               </div>
             </div>
             <div class="swiper-slide swiper-slide1" style="background-image: url(assets/img/slider1/slide3.jpg);">
               <div class="swiper__cadr ">
-                <a href="#" class="swiper__inner1">
+                <div class="swiper__inner1">
                   <div class="swiper__title1">
                     Заголовок блока слайда 3
                   </div>
                   <div class="swiper__text1">
                     Описание слайда 3
                   </div>
-                </a>
+                  <a class="swiper__link1" href="#">Подробнее</a>
+                </div>
               </div>
             </div>
           </div>
+
           <!-- Add Pagination -->
           <div class="swiper-pagination swiper-pagination1"></div>
           <!-- Add Arrows -->
           <div class="swiper-pagination swiper-button-prev swiper-button-prev1">
-            <i class="icon-back2"></i>
+            <i class="icon-back1"></i>
           </div>
           <div class="swiper-pagination swiper-button-next swiper-button-next1">
-            <i class="icon-next2"></i>
+            <i class="icon-next1"></i>
           </div>
         </div>
       </div>
-
-      <!-- <div class="tizers__area">
-      <div class="tisers">
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
-        </div>
-        <div class="tizer">
-          <i class=""></i>
-          <span>Подарочные сертификаты</span>
+      <div class="tizers__area">
+        <div class="tisers w1">
+          <div class="tizer">
+            <img src="assets/img/i/Gift.svg" alt="Подарочные сертификаты" />
+            <span>Подарочные сертификаты</span>
+          </div>
+          <div class="tizer">
+            <img src="assets/img/i/Brands.svg" alt="Любимые бренды" />
+            <span>Любимые бренды</span>
+          </div>
+          <div class="tizer">
+            <img src="assets/img/i/Quality.svg" alt="Гарантия качества" />
+            <span>Гарантия качества</span>
+          </div>
+          <div class="tizer">
+            <img src="assets/img/i/Location.svg" alt="Удобное расположение" />
+            <span>Удобное расположение</span>
+          </div>
         </div>
       </div>
-    </div> -->
 
       <div class="catProd__area">
         <div class="catProd__outer">
